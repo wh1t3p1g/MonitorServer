@@ -29,6 +29,7 @@ ADMIN_PASSWORD=admin #管理员密码
 - 将文件拷入到运行目录下，给public目录建立虚拟目录
 
 - 系统初次运行时会自动生成管理员账号，并生成lock文件，其中lock文件名可通过修改.env文件中LOCK_FILENAME来修改。
+- `php artisan serve` 测试运行系统
 ![](./1520087433269.jpg)
 
 
